@@ -12,51 +12,64 @@ Ministry of Defence
 
 ## Idea :
 
-    1. The proposed system is web-based that simulates a real life boardroom interview experience for both applicants and selectors.it integrates AI-driven question, automated response evaluation and real-time           scoring to ensure an unbiased and structured selection process.
+1. The proposed system is web-based that simulates a real life boardroom interview experience for both applicants and selectors.it integrates AI-driven question, automated response evaluation and real-time           scoring to ensure an unbiased and structured selection process.
 
-    2. The platform dynamically adjusts question complexity based in the applicant's expertise and provides quantifiable assessment metrics for selectors to amke informed decisions.
+2. The platform dynamically adjusts question complexity based in the applicant's expertise and provides quantifiable assessment metrics for selectors to amke informed decisions.
 
 ## Proposed Solution / Architecture Diagram :
 
-    The proposed solution consists of a web-based platform that facilitates an AI-assisted interview process for selectors and applicants. The system follows a structured approach:
+The proposed solution consists of a web-based platform that facilitates an AI-assisted interview process for selectors and applicants. The system follows a structured approach:
 
 ### User Roles:
-    1.Applicants: Register, complete profile, and participate in AI-driven or expert-led 
-                  interviews.
+1.Applicants: Register, complete profile, and participate in AI-driven or expert-led 
+interviews.
 
-    2.Selectors: Define selection criteria, monitor interviews, and review candidate scores.
+2.Selectors: Define selection criteria, monitor interviews, and review candidate scores.
 
 ### Interview Process:
 
-    1.Begins with ice-breaking questions, followed by techno-managerial questions based on            the candidate’s expertise.
+1.Begins with ice-breaking questions, followed by techno-managerial questions based on the candidate’s expertise.
 
-    2.Questions are either expert-driven or AI-generated, ensuring relevance.
+2.Questions are either expert-driven or AI-generated, ensuring relevance.
 
-    3.Candidate responses are analyzed and scored based on correctness, relevance, and                confidence.
+3.Candidate responses are analyzed and scored based on correctness, relevance, and confidence.
 
 ### System Components:
 
-    1.Frontend: Provides an interactive UI for applicants and selectors.
-    2.Backend: Manages data processing, scoring logic, and question bank.
-    3.AI/ML Module: Assists in evaluating responses and ranking candidates.
-    4.Database: Stores applicant profiles, interview records, and selection results.
-    5.Final Selection & Reporting:
-    6.System calculates final scores based on predefined criteria.
-    7.Selectors receive a detailed performance report for each candidate.
+1.Frontend: Provides an interactive UI for applicants and selectors.
+    
+2.Backend: Manages data processing, scoring logic, and question bank.
+    
+3.AI/ML Module: Assists in evaluating responses and ranking candidates.
+    
+4.Database: Stores applicant profiles, interview records, and selection results.
+    
+5.Final Selection & Reporting:
+    
+6.System calculates final scores based on predefined criteria.
+    
+7.Selectors receive a detailed performance report for each candidate.
 
 ## Use Cases :
 
 ![SIH problem statment](https://github.com/user-attachments/assets/17ffb9ab-da47-4b1a-af3c-4ccb9f35476d)
 
 ## Technology Stack :
+
 Frontend: React.js / Angular / Vue.js
+
 Backend: Node.js (Express) / Django (Python)
+
 Database: PostgreSQL / Firebase / MySQL
+
 AI/ML Integration: Python (Scikit-learn, TensorFlow)
+
 Cloud Hosting: AWS / Google Cloud / Azure
 
 ## Dependencies :
 
 AI/ML models for automated evaluation.
+
 Secure authentication system for experts and candidates.
+
 Cloud infrastructure for scalability and performance.
